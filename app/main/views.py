@@ -143,4 +143,4 @@ def subscriber():
         return render_template('index.html',title=title, blog=blog, getquotes = getquotes)
     subscriber = Blog.query.all()
     blog = Blog.query.all()
-    return render_template('subscribe.html',subscriber=subscriber,subscriber_form=subscriber_form,blog=blog)  
+    return render_template('email/subscribe.html',subscriber=subscriber,subscriber_form=subscriber_form,blog=blog)  
