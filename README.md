@@ -1,11 +1,11 @@
-### Pitch-world
+### Blog-post
 This project was generated with Python 3.8
 
 ## Author
 Festus Mutie
 
 ## Description
-This is an application that enables the user to pitch and see  different categories of users posted by other users.
+This is an application that enables the user to create blogs,and see  different blogs posted by other users and comment on them.
 
 ## Setup/Installation:
 Clone the repository to your local directory in your computer
