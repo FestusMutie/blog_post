@@ -138,7 +138,7 @@ def subscriber():
         subscriber= Subscriber(email=subscriber_form.email.data,name = subscriber_form.name.data)
         db.session.add(subscriber)
         db.session.commit()
-        mail_message("Welcome to MyBlog","email/subscriber",subscriber.email,subscriber=subscriber)
+        mail_message("Welcome to MyBlog",subscriber.email,subscriber=subscriber)
         title= "MyBlog"
         return render_template('index.html',title=title, blog=blog, getquotes = getquotes)
     subscriber = Blog.query.all()

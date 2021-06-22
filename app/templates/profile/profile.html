@@ -2,12 +2,12 @@
 {% import 'macros.html' as macro%}
 
 {% block content %}
-<div class="container" style="font-size: 20px; font-family: 'Merienda', cursive;  padding-top: 40px;">
+<div class="container" style="background-color: aqua; font-size: 20px; font-family: 'Courier New', Courier, monospace;  padding-top: 40px;">
   <h3 class="text-center mt-3" >My Profile</h3>
 <hr>
 <div class="row">
 <!-- displaying  Username-->
-  <div class="col-4">
+  
 
 
     {% if user.profile_pic_path %}
@@ -19,7 +19,7 @@
 
   {% endif %}
 
-</div>
+
 
 <div class="col-8">
  <!--Displaying user bio-->
@@ -41,7 +41,7 @@
     </div>
     <div class="form-group">
       <!-- <input type="submit" class="form-control"> -->
-      <button class="btn btn-info" type="submit">Submit</button>
+      <button class="btn btn-primary" type="submit">Submit</button>
     </div>
   </form>
     {% endif %}
